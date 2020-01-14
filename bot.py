@@ -13,8 +13,6 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
 
 subscribers = set()
 
-
-
 def main():
     mybot = Updater(settings.API_KEY, request_kwargs=settings.PROXY)
     mybot.bot._msg_queue = mq.MessageQueue()
