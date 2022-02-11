@@ -12,7 +12,7 @@ googleapis-common-protos==1.6.0
 grpcio==1.25.0
 idna==2.8
 jsonschema==2.6.0
-protobuf==3.11.1
+protobuf==3.15.0
 pycparser==2.19
 pymongo==3.10.1
 PySocks==1.7.1
